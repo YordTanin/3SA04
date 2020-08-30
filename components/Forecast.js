@@ -17,11 +17,11 @@ export default function Forecast(props){
 const styles = StyleSheet.create({
     mainTxt: {
         fontSize: 25,
-        margin: 10,
+        margin: 20,
         justifyContent: "space-between",
     },
     descriptionTxt: {
-        fontSize: 15,
+        fontSize: 20,
         marginLeft: 20,
     },
     img: {

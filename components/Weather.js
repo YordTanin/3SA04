@@ -52,7 +52,7 @@ export default function Weather(props) {
 const styles = StyleSheet.create({
     zipTxt: {
         fontSize: 30,
-        margin: 10,
+        margin: 30,
     },
     backdrop: {
         flexDirection: 'column',
