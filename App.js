@@ -2,8 +2,9 @@ import React from 'react';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import ZipCodeScreen from './screen/ZIpcodeScreen';
+
 import WeatherScreen from './screen/WeatherScreen';
+import ZipCodeScreen from './screen/ZipCodeScreen';
 
 const Stack = createStackNavigator();
 

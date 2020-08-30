@@ -9,12 +9,13 @@ const availableZipItems = [
     { place: 'Chiangmai', code: '50000' },
     { place: 'Khonkaen', code: '40000' },
     { place: 'Chonburi', code: '20000' },
+    
 ]
    
 
 const ZipItem = ({place, code, navigation}) => (
     <TouchableHighlight onPress={() => {
-        navigation.navigation('Weather', {zipCode: code})
+        navigation.navigate('Weather', {zipCode: code})
     }}>
     <View style={styles.zipItem}>
         <Text>{place}</Text>
